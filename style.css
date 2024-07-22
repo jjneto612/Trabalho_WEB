@@ -1,0 +1,26 @@
+body{
+
+    background-color: white;
+    color: black;
+
+}
+main h1{
+
+    text-align: center;
+}
+.navbar.cor-navbar{
+
+    background-color: rebeccapurple !important;
+}
+.col-12.cor-auto{
+
+    color: red;
+}
+.row.icons{
+
+    background-color: blue;
+}
+.col-12.icons{
+
+    align-content: end;
+}
