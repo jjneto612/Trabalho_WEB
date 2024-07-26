@@ -34,10 +34,6 @@
                         <a class="nav-link" href="contacto.html">Contacto</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
                     <a href=""><i class="bi bi-cart-fill"></i></a>
@@ -45,12 +41,16 @@
                 </ul>
             </div>
         </nav>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
     </header>
 
     <main class="container mb-10 p-7 shadow rounded">
         <h1>Mais vendidos esta semana</h1>
         <br>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mb-5">
 
             <div class="col md-3">
 
@@ -96,25 +96,42 @@
                     <button type="button" class="btn btn-primary comprar">Comprar</button>
                   </div>
             </div>
+
+            <div class="col md-3">
+
+              <div class="card" style="width: 15rem;">
+                  <img src="/images/MaisVendidosImagens/phishEvolve.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Phish - Evolve</h5>
+                    <p class="card-text">€20 - Vinil</p>
+                  </div>
+                  <button type="button" class="btn btn-primary comprar">Comprar</button>
+                </div>
+          </div>
         </div>
-    </div>
+    </main>
+
+    <div class="alert alert-success" id="cart-alert" role="alert">
+      Adicionado ao carrinho
+  </div>
     <br>
-      <footer class="bg-dark text-white py-4">
+      <footer class="bg-dark text-white py-4 footer">
         <div class="container text-center">
             <p>&copy; 2024 Loja CDs Lda. Todos os direitos reservados.</p>
             <div class="payment-methods d-flex justify-content-center">
                 <img src="images/visa.png" alt="Visa" class="img-fluid mx-2">
-                <img src="images/mastercard.png" alt="MasterCard" class="img-fluid mx-2">
-                <img src="images/amex.png" alt="American Express" class="img-fluid mx-2">
+                <img src="/images/MB.png" alt="MasterCard" class="img-fluid mx-2">
+                <img src="/images/Visa.png" alt="American Express" class="img-fluid mx-2">
                 <img src="images/paypal.png" alt="PayPal" class="img-fluid mx-2">
                 <!-- Add more payment method images as needed -->
             </div>
+            <ul></ul>
+            <div class="livro-reclamações">
+              <img src="/images/LivroRecalmacoes.png" alt="Livro de Reclamações">
+          </div>
         </div>
     </footer>
 
-    <div class="alert alert-success" id="cart-alert" role="alert">
-        Adicionado ao carrinho
-    </div>
   <!-- Bootstrap JS and dependencies -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
