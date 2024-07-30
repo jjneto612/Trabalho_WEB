@@ -4,17 +4,21 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>sobrenos</title>
+
+        <link rel="shortcut icon" href="/images/Favicon/cdfavicon-32x32.png" type="image/x-icon">
         <!-- Bootstrap CSS -->
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-        
+  
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/style.css">
       </head>
 <body>
 
     <header class="text-center p-3">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-            <a class="navbar-brand" href="#">Brand</a>
+            <a class="navbar-brand" href="#">
+                <img src="/images/Favicon/cdfavicon-32x32.png" alt="Logotipo">
+              </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -33,15 +37,26 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contacto.html">Contacto</a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Produtos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Vinil</a>
+                            <a class="dropdown-item" href="#">CD</a>
+                            <a class="dropdown-item" href="#">Cassete</a>
+                        </div>
+                    </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
                 <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                    <a href=""><i class="bi bi-cart-fill"></i></a>
-                  </li>
+                    <li class="nav-item">
+                        <a href=""><i class="bi bi-cart-fill"></i></a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -54,7 +69,7 @@
                 <img src="images/storefront.jpg" alt="Storefront" class="img-fluid rounded shadow">
             </div>
             <div class="col-md-6">
-                <h3>Our Mission</h3>
+                <h3>A Nossa Missão</h3>
                 <p>Temos como unica missão celebrar o que de melhor a musica tem para oferecer. Comercializamos todo o de artigos de música (Vinils,CDs e Cassetes).  </p>
                 
                 <h3>A Equipa</h3>
@@ -63,7 +78,6 @@
             </div>
         </div>
     </main>
-
     <footer class="bg-dark text-white py-4">
         <div class="container text-center">
             <p>&copy; 2024 Loja CDs Lda. Todos os direitos reservados.</p>
@@ -72,7 +86,6 @@
                 <img src="/images/MB.png" alt="MasterCard" class="img-fluid mx-2">
                 <img src="/images/Visa.png" alt="American Express" class="img-fluid mx-2">
                 <img src="images/paypal.png" alt="PayPal" class="img-fluid mx-2">
-                <!-- Add more payment method images as needed -->
             </div>
             <ul></ul>
             <div class="livro-reclamações">
@@ -80,5 +93,10 @@
           </div>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script  src="/JS/js.JS"></script>
 </body>
 </html>
