@@ -1,0 +1,17 @@
+
+body{
+
+    background-color: white;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sobreNosContainer{
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+}
+
+.row.icons{
+
+    background-color: #007bff;
+}

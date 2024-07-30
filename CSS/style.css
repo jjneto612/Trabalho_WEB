@@ -2,6 +2,7 @@ body{
 
     background-color: white;
     color: black;
+    font-family: 'Montserrat', sans-serif;
 
 }
 main h1{
@@ -41,13 +42,9 @@ header .navbar-brand {
     font-size: 1rem;
     margin: 0;
 }
-.col-12.cor-auto{
-
-    color: red;
-}
 .row.icons{
 
-    background-color: blue;
+    background-color: #007bff;
 }
 .col-12.icons{
 
