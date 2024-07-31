@@ -2,7 +2,7 @@ body{
 
     background-color: white;
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif; /* Utilizacao de font do Google Fonts  */
 
 }
 main h1{
@@ -106,12 +106,12 @@ main.container {
     margin: 20px auto;
     padding: 20px;
     max-width: 1200px;
-    width: calc(100% - 40px); /* Ensure some padding on smaller screens */
+    width: calc(100% - 40px); 
 }
 
 footer {
     padding: 2rem 0;
-    margin-top: 40px; /* Ensure some space above the footer */
+    margin-top: 40px; /* Espaco acima do footer */
 }
 
 footer p {
@@ -123,31 +123,31 @@ footer .payment-methods {
 }
 
 footer .payment-methods img {
-    max-height: 40px; /* Ensure all payment method logos have the same height */
+    max-height: 40px; /* Manter imagens do mesmo tamanho  */
     margin: 0 0.5rem;
     transition: transform 0.3s ease;
 }
 
 footer .payment-methods img:hover {
-    transform: scale(1.1); /* Slightly enlarge the image on hover for a nice effect */
+    transform: scale(1.1); /* Aumentar imagem quando passar cursor por cima */
 }
 
 footer .livro-reclamações img {
-    max-height: 50px; /* Adjust height as needed */
+    max-height: 50px; 
     margin-top: 1rem;
     transition: transform 0.3s ease;
 }
 
 footer .livro-reclamações img:hover {
-    transform: scale(1.1); /* Slightly enlarge the image on hover */
+    transform: scale(1.1); 
 }
 
 main.container {
-    background-color: #f8f9fa; /* Light background for contrast */
-    padding: 2rem; /* Padding for inner spacing */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    border-radius: 0.5rem; /* Rounded corners */
-    margin-top: 2rem; /* Ensure some space at the top */
+    background-color: #f8f9fa; 
+    padding: 2rem; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 0.5rem; 
+    margin-top: 2rem; 
 }
 /* Utility Classes */
 .text-center {
@@ -220,7 +220,7 @@ header .btn-outline-success {
 
 
 
-/* Utility Classes */
+
 .text-center {
     text-align: center;
 }
